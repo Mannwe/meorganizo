@@ -12,6 +12,9 @@ const userRoutes = require('./routes/user');
 const assignationRoutes = require('./routes/assignation');
 const taskRoutes = require('./routes/task');
 
+/* Ficheros estáticos, donde estará el fichero de inicio */
+app.use(express.static(path.join(__dirname, 'public')));
+
 /** Middlewares **/
 // Convertimos lo que nos llegue en un objeto json
 app.use(bodyParser.urlencoded({extended: false})); 
