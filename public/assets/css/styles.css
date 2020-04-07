@@ -1,0 +1,188 @@
+/* Estilos generales del contenedor principal de la aplicación */
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'EBGaramond';
+    src: url('../fonts/EBGaramond-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Amiri';
+    src: url('../fonts/Amiri-Regular.ttf');
+}
+
+body{
+    font-family: 'EBGaramond';
+    background-color: #eee;
+    min-height: 600px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.header{
+    height: 70px;
+    background-color: #349a34ed;
+    color: white;
+    line-height: 70px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.header h1{
+    display: block;
+    float: left;
+}
+
+.header .add-task{
+    float: right;
+    margin-right: 10px;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.tasks .category-block{
+    float: left;
+}
+
+.date-block{
+    font-family: 'EBGaramond';
+    float: right;
+}
+
+.date-block label{
+    line-height: 30px;
+}
+
+.date-block input[type='text']{
+    font-size: 15px;
+    float: right;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+
+.tasks .category{
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.tasks .date{
+    font-family: 'EBGaramond';
+    font-size: 15px;
+    float: right;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #349a34ed;
+    border: 1px solid green;
+    box-shadow: 0px 0px 1px #ccc inset;
+    color: #eee;
+}
+
+.tasks .task{
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding: 15px;
+    width: 95%;
+    margin: 0px auto;
+    transition: all 200ms;
+}
+
+.tasks .task:focus{
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+.newTask{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.icons-bar{
+    padding: 5px;
+}
+
+.icons-bar button{
+    background-color: transparent;
+    float: right;
+    color: #252222;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+    font-size: 18px;
+    transition: all 100ms;
+}
+
+.icons-bar button:hover{
+    color: #4357a2;
+}
+
+.icons-bar button:disabled{
+    color: #ccc;
+}
+
+.icon-add{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.assignation{
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.assignation select{
+    min-width: 200px;
+    padding: 5px;
+}
+
+.assignation span{
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 200ms;
+}
+
+.assignation span:hover{
+    font-size: 20px;
+}
+
+.assignButton{
+    color: #349a34ed;
+}
+
+.closeAssignmentButton{
+    color: #252222;
+}
+
+.errorMessage{
+    width: 27%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border:1px solid #bb2222;
+    color: #bb2222;
+    box-shadow: 0px 0px 1px red inset;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+}
+
+

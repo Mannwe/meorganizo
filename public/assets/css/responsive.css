@@ -1,0 +1,75 @@
+/********************************************************************
+****** Hoja de estilos para regular el comportamiento responsive ****
+********************************************************************/
+
+@media (max-width: 1575px){
+    .errorMessage{
+        width: 35%;
+    }
+}
+
+@media (max-width: 1000px){
+    .errorMessage{
+        width: 45%;
+    }
+}
+
+@media (max-width: 875px){
+    .header h1{
+        font-size: 27px;
+    }
+
+    .date-block input[type='text']{
+        font-size: 13px;
+    }
+
+    .date-block label{
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 800px){
+    .tasks .date{
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 740px){
+    .errorMessage{
+        width: 55%;
+    }
+}
+
+@media (max-width: 610px){
+    .tasks .date{
+        font-size: 15px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 490px){
+    .errorMessage{
+        width: 65%;
+    }
+}
+
+@media (max-width: 450px){
+    .tasks .date{
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 410px){
+    .errorMessage{
+        width: 75%;
+    }
+}
+
+@media (max-width: 360px){
+    .errorMessage{
+        width: 80%;
+        font-size: 14px;
+    }
+}
